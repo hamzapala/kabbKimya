@@ -1,0 +1,28 @@
+.footer {
+    padding: 2rem;
+    background-color: rgba(119, 197, 199, 0.05);
+    margin: 1rem 0 3rem;
+}
+
+.theLast {
+    font-size: small;
+    width: fit-content;
+    margin: 0 auto 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerSelect {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerUl {
+    display: flex;
+    flex-direction: column;
+}

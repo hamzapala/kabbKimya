@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeP {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.aboutUs {
+    text-align: center;
+    padding: 2rem 20%;
+    margin: auto;
+    background-color: rgba(119, 197, 199, 0.05);
+}
+
+.gliseryn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gliserynP {
+    display: inline;
+    width: 400px;
+}
+
+.usageArea {
+    text-align: center;
+}
+
+.usageArea>ul>a>li {
+    padding: 7px;
+    font-weight: 550;
+    text-decoration: underline;
+    font-size: large;
+    color: #444;
+}
+
+.usageArea>ul {
+    margin-left: -30px;
+    margin-top: -20px;
+}
+
+.usageArea>h2 {
+    margin-top: 5rem;
+    font-weight: 600;
+    color: #444;
+}
+
+.chapter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.usageArea>ul>a>li {
+    text-transform: uppercase;
+}
+
+.left {
+    width: 44%;
+    padding: 4rem 5rem 0 5rem;
+    background-color: #444;
+    color: beige;
+}
+
+.left>h5 {
+    font-weight: 600;
+    color: burlywood;
+    text-transform: capitalize;
+}
+
+.right {
+    width: 44%;
+}
+
+.right>img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+}
+
+.spesifikasyon {
+    text-align: center;
+    padding: 1rem 0 1rem;
+    margin-top: -2rem;
+    background-color: rgba(119, 197, 199, 0.05);
+}
+
+.button {
+    padding: .5rem 2rem;
+    background-color: #666;
+    border: 1px solid beige;
+    font-size: small;
+    color: beige;
+}

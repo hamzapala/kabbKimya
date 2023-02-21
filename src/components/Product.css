@@ -1,0 +1,40 @@
+.productContainer {
+    display: flex;
+    padding: 1rem;
+    background-color: rgba(119, 197, 199, 0.05);
+    margin: 1rem 0 1rem;
+    padding-top: 3rem;
+}
+
+.productContainer>h2 {
+    text-transform: uppercase;
+}
+
+.productTitle {
+    margin-left: 20%;
+    width: 40%;
+}
+
+.productImgContainer {
+    margin-top: -33px;
+    margin-left: 50px;
+}
+
+.productImg {
+    box-shadow: 5px 5px 5px #777;
+    object-fit: cover;
+    width: 100px;
+}
+
+.productP {
+    text-align: center;
+    color: #444;
+}
+
+.productA {
+    color: #444;
+}
+
+.productA:hover {
+    color: #777;
+}
