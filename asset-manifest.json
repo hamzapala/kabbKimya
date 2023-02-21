@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/kabbKimya/static/css/main.264e7959.css",
+    "main.js": "/kabbKimya/static/js/main.6a0842fa.js",
+    "static/media/img2.jpeg": "/kabbKimya/static/media/img2.843c38a77dbf4357bc75.jpeg",
+    "static/media/img3.jpeg": "/kabbKimya/static/media/img3.f4fe6df215cb3a3606b1.jpeg",
+    "static/media/img4.jpeg": "/kabbKimya/static/media/img4.0c764475d617426117b8.jpeg",
+    "static/media/img1.jpeg": "/kabbKimya/static/media/img1.e2b324fe8b3c8d1d5aad.jpeg",
+    "static/media/aboutUs.jpeg": "/kabbKimya/static/media/aboutUs.43563db747795f8a74ab.jpeg",
+    "static/media/teknikG.jpeg": "/kabbKimya/static/media/teknikG.f9db502682846ecf0c15.jpeg",
+    "static/media/kurumsal.jpeg": "/kabbKimya/static/media/kurumsal.68c84529165f1e0e4d70.jpeg",
+    "static/media/hamG.jpeg": "/kabbKimya/static/media/hamG.e2d35fd6dfcd889131dc.jpeg",
+    "static/media/gida.jpeg": "/kabbKimya/static/media/gida.2db170d12d66573278ea.jpeg",
+    "static/media/kozmetik.jpeg": "/kabbKimya/static/media/kozmetik.d669fd9bf1c42d14d410.jpeg",
+    "static/media/teknik.jpeg": "/kabbKimya/static/media/teknik.90ec69670ee1e0345447.jpeg",
+    "static/media/farmaG.jpg": "/kabbKimya/static/media/farmaG.ae6272104d80063eeae1.jpg",
+    "static/media/yem.jpeg": "/kabbKimya/static/media/yem.71eb729d03f3ec37b289.jpeg",
+    "static/media/temizlik.jpeg": "/kabbKimya/static/media/temizlik.1f702aa24759d680846b.jpeg",
+    "static/media/vizyon.jpeg": "/kabbKimya/static/media/vizyon.53ac80ce9b2f57301f42.jpeg",
+    "static/media/ilac.jpeg": "/kabbKimya/static/media/ilac.030bc3ff28a4d4c08314.jpeg",
+    "static/media/gliserin.jpeg": "/kabbKimya/static/media/gliserin.4dda92599af37f05451e.jpeg",
+    "index.html": "/kabbKimya/index.html",
+    "static/media/getFetch.cjs": "/kabbKimya/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.264e7959.css.map": "/kabbKimya/static/css/main.264e7959.css.map",
+    "main.6a0842fa.js.map": "/kabbKimya/static/js/main.6a0842fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.264e7959.css",
+    "static/js/main.6a0842fa.js"
+  ]
+}
