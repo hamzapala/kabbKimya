@@ -6,7 +6,7 @@ const SelectLanguage = (e) => {
 
   useEffect(() => {
     let lang = localStorage.getItem("multilang");
-    setLanguage(lang);
+    setLanguage(lang?.toUpperCase());
   }, []);
   const changeLanguage = (e) => {
     let lang;
@@ -17,13 +17,13 @@ const SelectLanguage = (e) => {
     }
     i18n.changeLanguage(lang);
     localStorage.setItem("multilang", lang);
-    setLanguage(lang);
+    setLanguage(lang?.toUpperCase());
   };
 
   return (
     <select onChange={changeLanguage} name="" id="">
       {localStorage.getItem("multilang") === "tr" ? (
-        <option selected value={language?.toUpperCase()}>
+        <option selected value={language}>
           TR
         </option>
       ) : (
@@ -31,7 +31,7 @@ const SelectLanguage = (e) => {
       )}
       {localStorage.getItem("multilang") === "en" ? (
         <option selected value="EN">
-          {language?.toUpperCase()}
+          {language}
         </option>
       ) : (
         <option value="EN">EN</option>
