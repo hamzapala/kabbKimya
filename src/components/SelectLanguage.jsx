@@ -23,7 +23,7 @@ const SelectLanguage = (e) => {
   return (
     <select onChange={changeLanguage} name="" id="">
       {localStorage.getItem("multilang") === "tr" ? (
-        <option selected value={language.toUpperCase()}>
+        <option selected value={language?.toUpperCase()}>
           TR
         </option>
       ) : (
@@ -31,7 +31,7 @@ const SelectLanguage = (e) => {
       )}
       {localStorage.getItem("multilang") === "en" ? (
         <option selected value="EN">
-          {language.toUpperCase()}
+          {language?.toUpperCase()}
         </option>
       ) : (
         <option value="EN">EN</option>
