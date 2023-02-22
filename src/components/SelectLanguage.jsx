@@ -6,18 +6,18 @@ const SelectLanguage = (e) => {
 
   useEffect(() => {
     let lang = localStorage.getItem("multilang");
-    setLanguage(lang?.toUpperCase());
+    setLanguage(lang);
   }, []);
   const changeLanguage = (e) => {
     let lang;
     if (e.target.value === "TR") {
-      lang = "tr";
+      lang = "TR";
     } else {
-      lang = "en";
+      lang = "EN";
     }
     i18n.changeLanguage(lang);
     localStorage.setItem("multilang", lang);
-    setLanguage(lang?.toUpperCase());
+    setLanguage(lang);
   };
 
   return (
