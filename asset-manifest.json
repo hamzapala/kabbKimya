@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kabbKimya/static/css/main.8980abe1.css",
+    "main.css": "/kabbKimya/static/css/main.c23b7f4d.css",
     "main.js": "/kabbKimya/static/js/main.2ae7e49a.js",
     "static/media/img2.jpeg": "/kabbKimya/static/media/img2.843c38a77dbf4357bc75.jpeg",
     "static/media/img3.jpeg": "/kabbKimya/static/media/img3.f4fe6df215cb3a3606b1.jpeg",
@@ -21,11 +21,11 @@
     "static/media/gliserin.jpeg": "/kabbKimya/static/media/gliserin.4dda92599af37f05451e.jpeg",
     "index.html": "/kabbKimya/index.html",
     "static/media/getFetch.cjs": "/kabbKimya/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.8980abe1.css.map": "/kabbKimya/static/css/main.8980abe1.css.map",
+    "main.c23b7f4d.css.map": "/kabbKimya/static/css/main.c23b7f4d.css.map",
     "main.2ae7e49a.js.map": "/kabbKimya/static/js/main.2ae7e49a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8980abe1.css",
+    "static/css/main.c23b7f4d.css",
     "static/js/main.2ae7e49a.js"
   ]
 }
