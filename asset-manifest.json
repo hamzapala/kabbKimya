@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kabbKimya/static/css/main.264e7959.css",
-    "main.js": "/kabbKimya/static/js/main.52ef6b23.js",
+    "main.css": "/kabbKimya/static/css/main.69ff7f2a.css",
+    "main.js": "/kabbKimya/static/js/main.2ae7e49a.js",
     "static/media/img2.jpeg": "/kabbKimya/static/media/img2.843c38a77dbf4357bc75.jpeg",
     "static/media/img3.jpeg": "/kabbKimya/static/media/img3.f4fe6df215cb3a3606b1.jpeg",
     "static/media/img4.jpeg": "/kabbKimya/static/media/img4.0c764475d617426117b8.jpeg",
@@ -21,11 +21,11 @@
     "static/media/gliserin.jpeg": "/kabbKimya/static/media/gliserin.4dda92599af37f05451e.jpeg",
     "index.html": "/kabbKimya/index.html",
     "static/media/getFetch.cjs": "/kabbKimya/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.264e7959.css.map": "/kabbKimya/static/css/main.264e7959.css.map",
-    "main.52ef6b23.js.map": "/kabbKimya/static/js/main.52ef6b23.js.map"
+    "main.69ff7f2a.css.map": "/kabbKimya/static/css/main.69ff7f2a.css.map",
+    "main.2ae7e49a.js.map": "/kabbKimya/static/js/main.2ae7e49a.js.map"
   },
   "entrypoints": [
-    "static/css/main.264e7959.css",
-    "static/js/main.52ef6b23.js"
+    "static/css/main.69ff7f2a.css",
+    "static/js/main.2ae7e49a.js"
   ]
 }
