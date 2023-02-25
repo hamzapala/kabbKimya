@@ -97,3 +97,82 @@
     font-size: small;
     color: beige;
 }
+
+@media only screen and (max-width: 481px) {
+    .homeP {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .gliseryn {
+        flex-wrap: wrap;
+    }
+
+    .gliserynP {
+        display: inline;
+        width: 95%;
+    }
+
+    .usageArea {
+        text-align: center;
+    }
+
+    .usageArea>ul>a>li {
+        padding: 7px;
+        font-weight: 550;
+        text-decoration: underline;
+        font-size: large;
+        color: #444;
+    }
+
+    .usageArea>ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .chapter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .left {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        padding: 1rem;
+        background-color: #444;
+        color: beige;
+    }
+
+    .left>h5 {
+        font-weight: 600;
+        color: burlywood;
+        text-transform: capitalize;
+        display: inline;
+        margin: auto;
+    }
+
+    .left>div>p {
+        display: inline;
+        margin: auto;
+    }
+
+    .left>div>Link>button {
+        display: inline;
+        margin: auto;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .right>img {
+        width: 100%;
+        min-height: 100%;
+        object-fit: fill;
+    }
+}

@@ -40,29 +40,31 @@ const NavbarComponent = () => {
             <Nav.Link>
               <SelectLanguage />
             </Nav.Link>
-            <Link to="/">
+            <Link className="linkMobile" to="/">
               <Nav.Link href="#home">{t("translation:home")}</Nav.Link>
             </Link>
-            <Link to="/product">
+            <Link className="linkMobile" to="/product">
               <Nav.Link href="#product">{t("translation:products")}</Nav.Link>
             </Link>
-            <Link to="/humanresources">
-              <Nav.Link to="#humanresources">
+            <Link className="linkMobile" to="/humanresources">
+              <Nav.Link href="#humanresources">
                 {t("translation:humanResource")}
               </Nav.Link>
             </Link>
-            <Link to="/about">
-              <Nav.Link to="#about">{t("translation:corporate")}</Nav.Link>
+            <Link className="linkMobile" to="/about">
+              <Nav.Link href="#about">{t("translation:corporate")}</Nav.Link>
             </Link>
-            <Link to="/contact">
-              <Nav.Link to="#contact">{t("translation:contact")}</Nav.Link>
+            <Link className="linkMobile" to="/contact">
+              <Nav.Link href="#contact">{t("translation:contact")}</Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
     );
-  } else {
-    // WEB NAVBAR
+  }
+
+  // WEB NAVBAR
+  else {
     return (
       <div className="header">
         <div>

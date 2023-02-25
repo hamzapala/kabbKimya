@@ -5,7 +5,6 @@
 }
 
 .aboutChapter {
-    /* padding: 4rem; */
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
@@ -51,4 +50,34 @@
     max-width: 450px;
     margin: auto;
     color: #444;
+}
+
+@media only screen and (max-width: 481px) {
+
+    .aboutChapter {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .aboutChapter>.aboutLeft {
+        width: 100vw;
+    }
+
+    .aboutLeftImg {
+        width: 100vw;
+        object-fit: cover;
+    }
+
+    .aboutChapter>.aboutRight {
+        width: 95%;
+
+    }
+
+    .aboutRightP {
+        max-width: 450px;
+        padding: 0 2rem;
+    }
 }
