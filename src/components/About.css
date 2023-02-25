@@ -63,11 +63,11 @@
     }
 
     .aboutChapter>.aboutLeft {
-        width: 100vw;
+        width: 100%;
     }
 
     .aboutLeftImg {
-        width: 100vw;
+        width: 100%;
         object-fit: cover;
     }
 
@@ -77,7 +77,6 @@
     }
 
     .aboutRightP {
-        max-width: 450px;
-        padding: 0 2rem;
+        padding: 0 4rem;
     }
 }
