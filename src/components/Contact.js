@@ -6,7 +6,7 @@ const Contact = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="container">
+    <div id="contact" className="container">
       <h2 className="title">{t("translation:contactUs")}</h2>
       <p>{t("translation:contactUsP")}</p>
       <div className="contactContainer">

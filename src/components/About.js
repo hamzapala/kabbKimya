@@ -9,7 +9,7 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="aboutContainer">
+    <div id="about" className="aboutContainer">
       <div className="aboutChapter">
         <div className="aboutLeft">
           <img className="aboutLeftImg" src={aboutUs} alt="" />

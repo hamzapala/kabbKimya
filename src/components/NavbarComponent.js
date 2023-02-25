@@ -41,16 +41,22 @@ const NavbarComponent = () => {
               <SelectLanguage />
             </Nav.Link>
             <Link to="/">
-              <Nav.Link href="#products">{t("translation:home")}</Nav.Link>
+              <Nav.Link href="#home">{t("translation:home")}</Nav.Link>
             </Link>
-            <Link className="linkMobile" to="/">
-              <Nav.Link href="#products">{t("translation:products")}</Nav.Link>
+            <Link to="/product">
+              <Nav.Link href="#product">{t("translation:products")}</Nav.Link>
             </Link>
-            <Nav.Link to="/humanresources">
-              {t("translation:humanResource")}
-            </Nav.Link>
-            <Nav.Link to="/about">{t("translation:corporate")}</Nav.Link>
-            <Nav.Link to="/contact">{t("translation:contact")}</Nav.Link>
+            <Link to="/humanresources">
+              <Nav.Link to="#humanresources">
+                {t("translation:humanResource")}
+              </Nav.Link>
+            </Link>
+            <Link to="/about">
+              <Nav.Link to="#about">{t("translation:corporate")}</Nav.Link>
+            </Link>
+            <Link to="/contact">
+              <Nav.Link to="#contact">{t("translation:contact")}</Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -6,7 +6,7 @@ const HumanResources = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="container">
+    <div id="humanresources" className="container">
       <p>{t("translation:humanResourceP1")}</p>
       <p>{t("translation:humanResourceP2")}</p>
     </div>
