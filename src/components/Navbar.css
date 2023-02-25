@@ -47,11 +47,20 @@ ul {
     font-size: .85rem;
 }
 
+.linkMobile {
+    color: #444;
+    text-decoration: none;
+}
+
 .link:hover {
     color: grey;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 481px) {
+.linkMobile:hover {
+    color: grey;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 481) {
     .link {
         font-weight: 520;
         color: #444;

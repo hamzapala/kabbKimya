@@ -7,7 +7,7 @@ import Product from "./components/Product";
 import HumanResources from "./components/HumanResources";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavbarComponent";
 import Footer from "./components/Footer";
 
 function App() {

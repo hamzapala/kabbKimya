@@ -10,7 +10,7 @@ const Product = () => {
   const { t } = useTranslation();
 
   return (
-    <div>
+    <div id="products">
       <div className="productContainer">
         <h2 className="productTitle">{t("translation:farma")}</h2>
         <div className="productImgContainer">
