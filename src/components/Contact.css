@@ -24,3 +24,23 @@
     color: rgb(179, 165, 20);
     text-shadow: 3px 3px 3px #666;
 }
+
+.telephone {
+    text-decoration: none;
+    color: #444;
+}
+
+.telephone:hover {
+    text-decoration: none;
+    color: #666;
+}
+
+.mailTo {
+    text-decoration: none;
+    color: #444;
+}
+
+.mailTo:hover {
+    text-decoration: none;
+    color: #666;
+}
