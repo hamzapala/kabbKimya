@@ -15,7 +15,6 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/kabbKimya" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/product" element={<Product />} />
         <Route path="/humanresources" element={<HumanResources />} />
