@@ -5,12 +5,14 @@
 }
 
 .aboutChapter {
+    background-color: beige;
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
 }
 
 .aboutChapter>.aboutLeft {
+    margin: auto;
     width: 46vw;
     min-width: 500px;
     background-color: beige;
@@ -26,6 +28,7 @@
 }
 
 .aboutChapter>.aboutRight {
+    text-indent: 25px;
     width: 46vw;
     min-width: 500px;
     background-color: beige;

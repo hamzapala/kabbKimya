@@ -40,7 +40,16 @@ const About = () => {
           <h3 className="aboutRightH3">{t("translation:responsibilty")}</h3>
           <p className="aboutRightP">{t("translation:responsibiltyP")}</p>
           <h3 className="aboutRightH3">{t("translation:qualityPolicy")}</h3>
-          <p className="aboutRightP">{t("translation:qualityPolicyP")}</p>
+          <p className="aboutRightP">{t("translation:qualityPolicyP1")}</p>
+          <p className="aboutRightP">{t("translation:qualityPolicyP2")}</p>
+          <li className="aboutRightP">{t("translation:qualityPolicyP3")}</li>
+          <li className="aboutRightP">{t("translation:qualityPolicyP4")}</li>
+          <li className="aboutRightP">{t("translation:qualityPolicyP5")}</li>
+          <li className="aboutRightP">{t("translation:qualityPolicyP6")}</li>
+          <li className="aboutRightP">{t("translation:qualityPolicyP7")}</li>
+          <li className="aboutRightP">{t("translation:qualityPolicyP8")}</li>
+          <li className="aboutRightP">{t("translation:qualityPolicyP9")}</li>
+          <p className="aboutRightP">{t("translation:qualityPolicyP10")}</p>
         </div>
       </div>
     </div>
